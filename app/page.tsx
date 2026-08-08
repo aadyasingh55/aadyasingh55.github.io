@@ -32,7 +32,7 @@ const capabilities = [
 ];
 
 const timeline = [
-  ["2026", "University of Sydney", "Master's in Computer Science, specialising in Data Science and AI."],
+  ["2026", "University of Sydney", "Master's in Computer Science, specialising in Data Science & AI and Software Engineering."],
   ["2025", "IIT Roorkee", "Post Graduate Certificate in Data Science, Machine Learning, and AI."],
   ["2025", "GATE DA", "Qualified in Data Science and AI with 92 percentile, AIR 4521, score 417."],
   ["Ongoing", "Public technical work", "Kaggle notebooks, GitHub projects, and Analytics Vidhya articles."],
@@ -113,7 +113,6 @@ export default async function Home() {
 
       <section id="top" className="hero-stage">
         <div className="signal-grid" />
-        <p className="journal-note note-hero-one">research log / applied systems</p>
         <p className="journal-note note-hero-two">messy inputs to working tools</p>
 
         <div className="hero-inner">
@@ -222,11 +221,9 @@ export default async function Home() {
       </section>
 
       <section id="projects" className="content-section">
-        <p className="journal-note note-projects">repo trail, newest work keeps moving</p>
         <SectionTitle
           label="selected projects"
           title="Live from GitHub."
-          text="Curated highlights stay first, and new public repositories appear here automatically after GitHub refreshes."
         />
         <div className="project-grid">
           {projects.map((project, index) => (
@@ -305,7 +302,6 @@ export default async function Home() {
         <SectionTitle
           label="achievements"
           title="Signals that travel well."
-          text="Concise proof points for recruiters, collaborators, and technical reviewers."
         />
         <div className="achievement-grid">
           {achievements.map(([title, text]) => (
@@ -318,7 +314,6 @@ export default async function Home() {
       </section>
 
       <section id="profiles" className="content-section profiles-section">
-        <p className="journal-note note-profiles">outside signals, same notebook</p>
         <SectionTitle
           label="public profiles"
           title="Signals outside this site."
@@ -356,9 +351,9 @@ export default async function Home() {
         <div className="about-copy">
           <p>
             I am currently pursuing a Master&apos;s in Computer Science at the
-            University of Sydney, specialising in Data Science and AI. My work
-            sits between software engineering, applied analytics, and machine
-            learning.
+            University of Sydney, specialising in Data Science &amp; AI and
+            Software Engineering. My work sits between software engineering,
+            applied analytics, and machine learning.
           </p>
           <p>
             I am drawn to problems where the hard part is not only the model,
