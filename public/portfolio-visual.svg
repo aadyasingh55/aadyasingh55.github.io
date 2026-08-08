@@ -1,0 +1,120 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#EFE7D8"/>
+  <path d="M82 72C360 55 667 61 1123 82C1130 438 1131 851 1112 1430C754 1453 390 1450 84 1421C60 1021 60 506 82 72Z" fill="#FBF4E8"/>
+  <path d="M82 72C360 55 667 61 1123 82C1130 438 1131 851 1112 1430C754 1453 390 1450 84 1421C60 1021 60 506 82 72Z" stroke="#2C241B" stroke-opacity=".34" stroke-width="4"/>
+
+  <g opacity=".36" stroke="#315B83" stroke-width="1.4">
+    <path d="M132 164H1064"/>
+    <path d="M130 239H1065"/>
+    <path d="M131 314H1062"/>
+    <path d="M129 389H1067"/>
+    <path d="M132 464H1063"/>
+    <path d="M131 539H1064"/>
+    <path d="M130 614H1066"/>
+    <path d="M132 689H1062"/>
+    <path d="M129 764H1065"/>
+    <path d="M131 839H1062"/>
+    <path d="M130 914H1065"/>
+    <path d="M132 989H1062"/>
+    <path d="M130 1064H1064"/>
+    <path d="M132 1139H1060"/>
+    <path d="M130 1214H1065"/>
+    <path d="M132 1289H1062"/>
+    <path d="M210 118V1375"/>
+    <path d="M300 119V1376"/>
+    <path d="M390 116V1372"/>
+    <path d="M480 119V1374"/>
+    <path d="M570 116V1377"/>
+    <path d="M660 118V1372"/>
+    <path d="M750 116V1376"/>
+    <path d="M840 119V1373"/>
+    <path d="M930 117V1375"/>
+    <path d="M1020 119V1371"/>
+  </g>
+
+  <g opacity=".25">
+    <circle cx="174" cy="209" r="3" fill="#2C241B"/>
+    <circle cx="742" cy="188" r="2" fill="#2C241B"/>
+    <circle cx="958" cy="434" r="2.5" fill="#2C241B"/>
+    <circle cx="312" cy="1194" r="2" fill="#2C241B"/>
+    <circle cx="842" cy="1272" r="3" fill="#2C241B"/>
+  </g>
+
+  <g font-family="Caveat, Apple Chancery, Brush Script MT, cursive" fill="#2C241B">
+    <text x="142" y="146" font-size="72" font-weight="700" transform="rotate(-2 142 146)">systems notebook</text>
+    <text x="800" y="154" font-size="32" fill="#B12D4B" transform="rotate(5 800 154)">not a chatbot demo</text>
+    <text x="143" y="1224" font-size="36" fill="#5F7F61" transform="rotate(-5 143 1224)">check: does it survive messy data?</text>
+    <text x="724" y="1187" font-size="34" fill="#315B83" transform="rotate(4 724 1187)">ship + measure + revise</text>
+  </g>
+
+  <g stroke="#2C241B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M166 288C251 273 329 276 410 289C413 360 407 433 397 507C320 512 239 510 160 499C151 428 153 357 166 288Z" fill="#FFF9EF"/>
+    <path d="M495 268C591 253 687 258 780 277C789 347 786 429 771 503C682 512 584 508 489 494C480 421 482 343 495 268Z" fill="#FFF9EF"/>
+    <path d="M861 296C937 283 1015 288 1065 306C1063 377 1062 442 1048 514C974 525 918 520 852 499C844 431 849 365 861 296Z" fill="#FFF9EF"/>
+    <path d="M310 618C421 596 517 604 626 626C633 717 625 795 606 883C489 894 398 886 294 864C284 783 288 704 310 618Z" fill="#FFF9EF"/>
+    <path d="M730 634C821 617 926 621 1021 642C1023 721 1015 800 997 872C897 884 802 877 717 856C707 777 711 704 730 634Z" fill="#FFF9EF"/>
+  </g>
+
+  <g stroke="#315B83" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M415 397C443 385 467 374 492 358"/>
+    <path d="M477 352C493 354 507 356 521 359"/>
+    <path d="M503 340C510 350 517 359 524 368"/>
+    <path d="M778 390C808 394 832 402 858 419"/>
+    <path d="M838 398C850 407 858 418 864 431"/>
+    <path d="M851 435C858 424 865 413 871 402"/>
+    <path d="M602 509C572 548 544 585 515 624"/>
+    <path d="M519 595C518 612 517 625 514 639"/>
+    <path d="M494 618C507 626 520 632 534 638"/>
+    <path d="M619 750C650 742 682 738 720 738"/>
+    <path d="M697 723C710 730 720 737 731 747"/>
+    <path d="M704 758C714 751 724 743 734 735"/>
+  </g>
+
+  <g font-family="Caveat, Apple Chancery, Brush Script MT, cursive" fill="#2C241B">
+    <text x="190" y="341" font-size="42" font-weight="700">raw signal</text>
+    <text x="184" y="386" font-size="29">tickets, CSVs, notes</text>
+    <text x="184" y="430" font-size="29">logs + noisy inputs</text>
+    <text x="530" y="324" font-size="42" font-weight="700">reasoning</text>
+    <text x="528" y="370" font-size="29">classify / plan</text>
+    <text x="528" y="414" font-size="29">choose next step</text>
+    <text x="884" y="352" font-size="42" font-weight="700">tool call</text>
+    <text x="888" y="399" font-size="29">API, model, DB</text>
+    <text x="888" y="443" font-size="29">or lookup path</text>
+    <text x="340" y="684" font-size="43" font-weight="700">review gate</text>
+    <text x="340" y="732" font-size="30">human sign-off</text>
+    <text x="340" y="776" font-size="30">before risky action</text>
+    <text x="758" y="695" font-size="43" font-weight="700">evidence</text>
+    <text x="758" y="742" font-size="30">trace, metrics, tests</text>
+    <text x="758" y="786" font-size="30">what changed?</text>
+  </g>
+
+  <g stroke="#B12D4B" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M166 559C197 547 238 546 276 557C326 571 359 574 397 557"/>
+    <path d="M166 587C211 579 251 584 286 598C331 616 367 610 405 592"/>
+    <path d="M832 940C869 914 913 905 958 917C1005 930 1034 960 1044 1001C1055 1046 1032 1094 988 1118C945 1141 889 1130 853 1094C817 1059 803 982 832 940Z"/>
+    <path d="M858 1001C891 1028 923 1047 973 1070"/>
+    <path d="M973 948C936 990 903 1024 864 1090"/>
+  </g>
+
+  <g stroke="#5F7F61" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M176 1008C229 995 277 999 326 1012C378 1026 425 1019 468 997"/>
+    <path d="M176 1062C234 1047 284 1051 331 1072C379 1093 431 1081 480 1056"/>
+    <path d="M176 1118C234 1102 280 1107 330 1132C381 1158 438 1138 494 1110"/>
+  </g>
+
+  <g font-family="Caveat, Apple Chancery, Brush Script MT, cursive" fill="#2C241B">
+    <text x="536" y="989" font-size="34" transform="rotate(-4 536 989)">tiny metrics, not decoration</text>
+    <text x="535" y="1045" font-size="30">latency</text>
+    <text x="535" y="1100" font-size="30">drift</text>
+    <text x="535" y="1155" font-size="30">approval rate</text>
+  </g>
+
+  <g stroke="#2C241B" stroke-opacity=".5" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M548 1004C548 1068 548 1133 548 1195"/>
+    <path d="M548 1194C633 1195 714 1195 793 1194"/>
+    <path d="M579 1158C607 1128 635 1107 666 1082C700 1054 731 1026 772 990"/>
+    <path d="M586 1120L623 1120"/>
+    <path d="M586 1074L648 1074"/>
+    <path d="M586 1028L704 1028"/>
+  </g>
+</svg>

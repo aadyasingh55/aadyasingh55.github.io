@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.DS_Store
+*.pem
+.env*.local
+tsconfig.tsbuildinfo
+.uv-cache
+tmp/
+output/
+agentops-support-automator/
+mlops-drift-monitor/
+langgraph-aadya-contrib/
+buildkite-docs-aadya-contrib/
