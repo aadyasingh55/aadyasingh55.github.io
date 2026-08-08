@@ -9,17 +9,17 @@ const proof = [
   ["Articles", "10+"],
 ];
 
-const agentWorkflow = [
-  ["Ingestion", "Normalises tickets, logs, stack traces, and customer impact into a typed work item."],
-  ["Planner", "Classifies severity, owner, confidence, and the next executable branch."],
-  ["Resolver", "Drafts a response, lookup plan, or code patch with evidence attached."],
-  ["Review Gate", "Pauses risky actions for human sign-off before execution or customer send."],
+const featuredWorkflow = [
+  ["Maps Input", "Parses Google Maps links and turns messy pickup/dropoff text into usable trip coordinates."],
+  ["API + Auth", "Separates rider and driver flows through FastAPI endpoints, JWT auth, and persisted trip state."],
+  ["Fare Model", "Scores trips with a trained fare estimator and exposes the estimate transparently in the booking flow."],
+  ["Dispatch View", "Keeps bookings, driver actions, and trip history inspectable instead of hiding the system in a notebook."],
 ];
 
-const agentMetrics = [
-  ["4", "specialized agents"],
-  ["12", "state checkpoints"],
-  ["100%", "human approval path"],
+const featuredMetrics = [
+  ["11", "FastAPI endpoints"],
+  ["R² .742", "fare model"],
+  ["10", "parser tests"],
 ];
 
 const capabilities = [
@@ -163,14 +163,14 @@ export default async function Home() {
         <div className="feature-layout">
           <SectionTitle
             label="featured project"
-            title="AgentOps Support Automator"
-            text="A production-shaped multi-agent workflow that shows orchestration, state, review gates, and failure handling."
+            title="CabPilot ML"
+            text="A full-stack taxi booking system that connects product flows, backend persistence, location parsing, and ML inference."
           />
           <article className="feature-card agent-feature-card">
             <div className="agent-workflow-visual">
               <div className="workflow-rail" />
               <p className="journal-note note-workflow">state changes recorded here</p>
-              {agentWorkflow.map(([title, text], index) => (
+              {featuredWorkflow.map(([title, text], index) => (
                 <div key={title} className={`agent-node node-${index + 1}`}>
                   <span>{`0${index + 1}`}</span>
                   <strong>{title}</strong>
@@ -178,25 +178,25 @@ export default async function Home() {
                 </div>
               ))}
               <div className="review-ticket">
-                <span>pending approval</span>
-                <strong>Patch touches auth middleware</strong>
-                <p>Reviewer must approve before execution.</p>
+                <span>model signal</span>
+                <strong>Fare estimate with error metrics</strong>
+                <p>R² 0.742, MAE $2.70, RMSE $7.79.</p>
               </div>
               <div className="failure-lane">
-                <span>failure state</span>
-                <strong>low confidence route</strong>
+                <span>edge case</span>
+                <strong>messy maps links</strong>
               </div>
             </div>
             <div className="feature-content">
               <p className="micro-label">problem solved</p>
-              <h3>Support tickets become auditable agent workflows, not one-off chatbot replies.</h3>
+              <h3>A taxi booking demo becomes a real software system, not just a fare-prediction notebook.</h3>
               <p>
-                Incoming bug reports move through ingestion, planning, code lookup,
-                patch drafting, and human approval. Every branch records state,
-                confidence, retries, and the reason a task stopped.
+                CabPilot connects rider booking, driver actions, authentication,
+                trip persistence, Google Maps parsing, and a trained ML fare model
+                through a typed FastAPI backend and Next.js interface.
               </p>
               <div className="metric-row">
-                {agentMetrics.map(([value, label]) => (
+                {featuredMetrics.map(([value, label]) => (
                   <span key={label}>
                     <strong>{value}</strong>
                     {label}
@@ -204,7 +204,7 @@ export default async function Home() {
                 ))}
               </div>
               <div className="tag-row feature-tags">
-                {["FastAPI", "LangGraph", "PostgreSQL", "Docker", "Next.js"].map((item) => (
+                {["Next.js", "FastAPI", "PostgreSQL", "SQLAlchemy", "ML"].map((item) => (
                   <span key={item}>{item}</span>
                 ))}
               </div>
@@ -212,7 +212,7 @@ export default async function Home() {
                 <a href="#projects" className="primary-action">
                   View System
                 </a>
-                <a href="https://github.com/aadyasingh55/agentops-support-automator" className="ghost-action">
+                <a href="https://github.com/aadyasingh55/taxi-booking-ml" className="ghost-action">
                   GitHub
                 </a>
               </div>

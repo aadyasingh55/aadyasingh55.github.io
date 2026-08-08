@@ -18,7 +18,7 @@ const curatedProjects: Record<
     text: "A multi-agent task automation service for technical support triage, patch drafting, state history, and human-in-the-loop approval.",
     stack: ["Python", "FastAPI", "LangGraph", "PostgreSQL", "Docker", "Next.js"],
     signal: "Stateful agent orchestration",
-    priority: 1,
+    priority: 3,
   },
   "mlops-drift-monitor": {
     title: "MLOps Drift Monitor",
@@ -30,11 +30,11 @@ const curatedProjects: Record<
   },
   "taxi-booking-ml": {
     title: "CabPilot ML",
-    eyebrow: "featured build",
-    text: "A full-stack taxi booking MVP with Google Maps link parsing, driver workflows, JWT auth, trip persistence, and a transparent fare estimator.",
+    eyebrow: "flagship build",
+    text: "A full-stack taxi booking MVP with rider/driver flows, JWT auth, trip persistence, Google Maps parsing, and transparent ML fare prediction.",
     stack: ["Next.js", "FastAPI", "PostgreSQL", "SQLAlchemy", "ML"],
-    signal: "Maps links to real coordinates",
-    priority: 3,
+    signal: "R2 0.742 fare model + 11 API endpoints",
+    priority: 1,
   },
   "Medical-RAG-System": {
     title: "Medical RAG System",
@@ -55,6 +55,18 @@ const curatedProjects: Record<
 };
 
 const fallbackProjects = [
+  {
+    title: "CabPilot ML",
+    eyebrow: "flagship build",
+    text: curatedProjects["taxi-booking-ml"].text,
+    stack: curatedProjects["taxi-booking-ml"].stack,
+    signal: curatedProjects["taxi-booking-ml"].signal,
+    link: `https://github.com/${GITHUB_USERNAME}/taxi-booking-ml`,
+    repo: "taxi-booking-ml",
+    updatedAt: "",
+    stars: 0,
+    language: "TypeScript",
+  },
   {
     title: "AgentOps Support Automator",
     eyebrow: "portfolio stopper",
@@ -78,18 +90,6 @@ const fallbackProjects = [
     updatedAt: "",
     stars: 0,
     language: "Python",
-  },
-  {
-    title: "CabPilot ML",
-    eyebrow: "featured build",
-    text: curatedProjects["taxi-booking-ml"].text,
-    stack: curatedProjects["taxi-booking-ml"].stack,
-    signal: curatedProjects["taxi-booking-ml"].signal,
-    link: `https://github.com/${GITHUB_USERNAME}/taxi-booking-ml`,
-    repo: "taxi-booking-ml",
-    updatedAt: "",
-    stars: 0,
-    language: "TypeScript",
   },
   {
     title: "Medical RAG System",
