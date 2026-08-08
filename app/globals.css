@@ -35,7 +35,7 @@
   --line: rgba(248, 241, 230, 0.16);
   --glow: rgba(230, 109, 133, 0.16);
   --paper-line: rgba(142, 178, 216, 0.1);
-  --sketch: rgba(248, 241, 230, 0.34);
+  --sketch: rgba(255, 252, 244, 0.82);
 }
 
 html {
@@ -428,6 +428,14 @@ button {
   font-weight: 700;
 }
 
+[data-theme="night"] .ink-muted {
+  stroke: rgba(255, 252, 244, 0.78);
+}
+
+[data-theme="night"] .diagram-labels {
+  fill: rgba(255, 252, 244, 0.86);
+}
+
 .console-card,
 .feature-card,
 .project-card,
@@ -508,7 +516,7 @@ button {
   border: 1px solid var(--line);
   border-radius: 2px;
   background:
-    #fff4bb;
+    #efe3c7;
   box-shadow: 3px 4px 0 rgba(65, 49, 34, 0.1);
   transform: rotate(-4deg);
 }
@@ -526,7 +534,11 @@ button {
 }
 
 [data-theme="night"] .profile-glass {
-  background: rgba(33, 27, 22, 0.76);
+  border-color: rgba(255, 252, 244, 0.2);
+  background: rgba(239, 227, 199, 0.18);
+  box-shadow:
+    3px 4px 0 rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 252, 244, 0.12);
 }
 
 .profile-proof {
@@ -626,7 +638,7 @@ button {
   padding: 0.7rem 0.85rem;
   border: 1px solid var(--line);
   border-radius: 3px;
-  background: #fff4bb;
+  background: #efe3c7;
   box-shadow: 3px 4px 0 rgba(65, 49, 34, 0.11);
 }
 
@@ -635,13 +647,29 @@ button {
 }
 
 .proof-card:nth-child(2) {
-  background: #f7e8d6;
+  background: #e9d7cb;
   transform: rotate(2deg);
 }
 
 .proof-card:nth-child(3) {
-  background: #eef1d5;
+  background: #dfe5d2;
   transform: rotate(-1deg);
+}
+
+[data-theme="night"] .proof-card {
+  border-color: rgba(255, 252, 244, 0.18);
+  background: rgba(239, 227, 199, 0.18);
+  box-shadow:
+    3px 4px 0 rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 252, 244, 0.1);
+}
+
+[data-theme="night"] .proof-card:nth-child(2) {
+  background: rgba(138, 85, 91, 0.2);
+}
+
+[data-theme="night"] .proof-card:nth-child(3) {
+  background: rgba(112, 129, 103, 0.22);
 }
 
 .proof-card strong {
