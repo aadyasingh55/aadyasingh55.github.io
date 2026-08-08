@@ -199,7 +199,11 @@ button {
 .site-nav-scrolled .nav-signature,
 .site-nav-scrolled .nav-links a,
 .site-nav-scrolled .nav-resume {
-  color: var(--ink);
+  color: var(--muted);
+}
+
+.site-nav-scrolled .nav-signature {
+  color: var(--ruby);
 }
 
 .nav-links a {
@@ -213,7 +217,7 @@ button {
 
 .site-nav-scrolled .nav-links a:hover,
 .site-nav-scrolled .nav-resume:hover {
-  color: #fff;
+  color: var(--ruby);
 }
 
 .nav-resume,
@@ -227,8 +231,9 @@ button {
 
 .site-nav-scrolled .theme-toggle,
 .site-nav-scrolled .nav-resume {
-  border-color: rgba(255, 255, 255, 0.28);
-  color: #fff;
+  border-color: var(--line);
+  color: var(--ink);
+  background: var(--panel);
 }
 
 .theme-toggle:hover {
