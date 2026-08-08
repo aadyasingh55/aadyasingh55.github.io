@@ -184,12 +184,14 @@ button {
 }
 
 .site-nav-scrolled {
-  border-color: rgba(177, 45, 75, 0.32);
-  background: rgba(246, 239, 227, 0.94);
+  border-color: rgba(255, 255, 255, 0.2);
+  background: var(--ruby);
+  box-shadow: 0 12px 34px rgba(110, 34, 48, 0.22);
 }
 
 [data-theme="night"] .site-nav-scrolled {
-  background: rgba(33, 27, 22, 0.9);
+  background: var(--ruby-deep);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.3);
 }
 
 .nav-signature {
@@ -199,11 +201,11 @@ button {
 .site-nav-scrolled .nav-signature,
 .site-nav-scrolled .nav-links a,
 .site-nav-scrolled .nav-resume {
-  color: var(--muted);
+  color: #fff;
 }
 
 .site-nav-scrolled .nav-signature {
-  color: var(--ruby);
+  color: #fff;
 }
 
 .nav-links a {
@@ -217,7 +219,8 @@ button {
 
 .site-nav-scrolled .nav-links a:hover,
 .site-nav-scrolled .nav-resume:hover {
-  color: var(--ruby);
+  color: #fff;
+  opacity: 0.78;
 }
 
 .nav-resume,
@@ -231,9 +234,10 @@ button {
 
 .site-nav-scrolled .theme-toggle,
 .site-nav-scrolled .nav-resume {
-  border-color: var(--line);
-  color: var(--ink);
-  background: var(--panel);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow: 2px 3px 0 rgba(65, 18, 30, 0.18);
 }
 
 .theme-toggle:hover {
